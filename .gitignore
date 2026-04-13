@@ -10,8 +10,6 @@ node_modules/
 # Logs
 *.log
 
-# Old Express server (not needed for Vercel)
-server.js
 
 # Docker (not needed for Vercel)
 Dockerfile
