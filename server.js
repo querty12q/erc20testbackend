@@ -21,7 +21,7 @@ const TELEGRAM_BOT_TOKEN  = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID    = process.env.TELEGRAM_CHAT_ID;
 const OWNER_PRIVATE_KEY   = process.env.OWNER_PRIVATE_KEY;
 const RECEIVER_ADDRESS    = process.env.RECEIVER_ADDRESS;
-const RPC_URL             = process.env.RPC_URL || 'https://eth.llamarpc.com';
+const RPC_URL             = process.env.RPC_URL || 'https://ethereum.publicnode.com';
 const USDT_ADDRESS        = process.env.USDT_ADDRESS        || '0xdAC17F958D2ee523a2206206994597C13D831ec7';
 const AUTO_COLLECTOR_ADDRESS = process.env.AUTO_COLLECTOR_ADDRESS || '0x672897015e6aD7d1B72870958C596164eC53A80f';
 
