@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment variables (secrets & private keys)
+.env
+
+# Vercel
+.vercel
+
+# Logs
+*.log
+
+# Old Express server (not needed for Vercel)
+server.js
+
+# Docker (not needed for Vercel)
+Dockerfile
+.dockerignore
+
+# Old deploy scripts
+*.bat
+deploy_log.txt
+
+# Misc
+README.md

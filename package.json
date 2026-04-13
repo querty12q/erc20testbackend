@@ -1,0 +1,21 @@
+{
+  "name": "usdterc20backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ERC20 USDT Backend for Vercel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.16.0",
+    "express": "^5.2.1"
+  }
+}
